@@ -35,7 +35,7 @@ eureka:
 #      http://localhost:7001/eureka #单机版本使用
 #      defaultZone: http://peer1:7001/eureka/,http://peer2:7002/eureka/,http://peer3:7003/eureka/
   instance:
-    instance-id: microservicecloud-person8001 #自定义服务实例名
+    instance-id: microservicecloud-config-person8004 #自定义服务实例名
     prefer-ip-address: true     #访问路径可以显示IP地址
     lease-expiration-duration-in-seconds: 10 # 10秒即过期
     lease-renewal-interval-in-seconds: 5 # 5秒一次心跳
@@ -79,7 +79,7 @@ eureka:
 #      http://localhost:7001/eureka #单机版本使用
 #      defaultZone: http://peer1:7001/eureka/,http://peer2:7002/eureka/,http://peer3:7003/eureka/
   instance:
-    instance-id: microservicecloud-person8001 #自定义服务实例名
+    instance-id: microservicecloud-config-person8004 #自定义服务实例名
     prefer-ip-address: true     #访问路径可以显示IP地址
     lease-expiration-duration-in-seconds: 10 # 10秒即过期
     lease-renewal-interval-in-seconds: 5 # 5秒一次心跳
